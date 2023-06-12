@@ -39,7 +39,7 @@ pub struct ResponseWeather {
     pub name: String,
 }
 
-/// get weather from service http://api.weatherapi.com/
+/// get weather from service <http://api.weatherapi.com/>
 pub fn get_weather(
     api_key: &String,
     latitude: f64,
@@ -72,7 +72,7 @@ pub struct OpenWeatherMap {
     pub api_key: String,
 }
 
-/// Implementation for the service https://openweathermap.org/
+/// Implementation for the service <https://openweathermap.org/>
 impl WeatherProvider for OpenWeatherMap {
     fn get_weather(&self, address: &str) -> Result<WeatherData, Box<dyn common::Error>> {
         let coordinates = coordinates::get_coordinates(address)?;

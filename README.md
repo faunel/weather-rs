@@ -4,7 +4,7 @@
 1. https://www.weatherapi.com/
 2. https://openweathermap.org/
 3. https://www.accuweather.com/
-4. https://www.aerisweather.com/
+4. https://www.aerisweather.com/ (В процесі)
 
 
 # Зміст  
